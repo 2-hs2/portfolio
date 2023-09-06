@@ -1,6 +1,6 @@
 ---
-name: "\U0001F9E9 FEATURE"
-about: Feature 작업 사항을 입력해주세요.
+name: "\U0001F430 ISSUE"
+about: 작업 사항을 입력해주세요.
 title: ''
 labels: ''
 assignees: ''
