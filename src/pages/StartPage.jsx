@@ -1,5 +1,7 @@
 import { useCallback, useState } from "react";
 
+import { ReactComponent as ArrowSvg } from "../assets/icon/arrow_black.svg";
+
 const StartPage = () => {
   // 마우스 x,y 좌표를 담는 state
   const [x, setX] = useState(0);
@@ -13,6 +15,9 @@ const StartPage = () => {
 
   return (
     <div className="container" onMouseMove={setMousePosition}>
+      <div className="arrow-wrap">
+        <ArrowSvg className="arrow-icon" />
+      </div>
       <div
         className="circle"
         style={{
