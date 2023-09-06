@@ -1,0 +1,31 @@
+// 애니메이션 관련 mixin
+@mixin animation($delay, $duration, $name) {
+  animation-delay: $delay;
+  animation-duration: $duration;
+  animation-name: $name;
+}
+@mixin keyframe($animationName) {
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+@include keyframe(moveLeft) {
+  0% {
+    opacity: 0;
+    right: 2%;
+  }
+  100% {
+    opacity: 1;
+    right: 8%;
+  }
+}
+@include keyframe(moveRight) {
+  0% {
+    opacity: 0;
+    left: 2%;
+  }
+  100% {
+    opacity: 1;
+    left: 8%;
+  }
+}
