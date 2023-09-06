@@ -41,12 +41,12 @@
     justify-content: end;
     width: 17vw;
     height: 17vw;
-    @include animation(0s, 1.5s, moveLeft);
+    @include animation(0s, 2s, moveLeft);
 
     .arrow-icon {
       cursor: pointer;
       fill: #fff;
-      width: 60%;
+      width: 55%;
       transform: rotate(180deg);
     }
     &:hover {
@@ -54,5 +54,34 @@
         fill: #000;
       }
     }
+  }
+  .content1 {
+    position: absolute;
+    z-index: 2;
+    top: 8%;
+    left: 8%;
+    height: 17vw;
+    font-size: 4vw;
+
+    &:hover {
+      color: #000;
+      font-weight: 500;
+    }
+    @include animation(0s, 1s, moveRight);
+  }
+  .content2 {
+    position: absolute;
+    z-index: 2;
+    bottom: 8%;
+    right: 8%;
+    font-size: 1.5vw;
+    text-align: end;
+    padding: 12vw 0 0 12vw;
+
+    &:hover {
+      color: #000;
+      font-weight: 500;
+    }
+    @include animation(0s, 4s, moveLeft);
   }
 }
