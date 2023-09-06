@@ -20,6 +20,9 @@ const StartPage = () => {
           left: x,
         }}
       ></div>
+      <div className="title">2023</div>
+      <div className="title">FRONTEND</div>
+      <div className="title">PORTFOLIO</div>
     </div>
   );
 };
