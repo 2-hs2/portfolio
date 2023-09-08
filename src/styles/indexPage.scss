@@ -1,0 +1,15 @@
+.container2 {
+  background-color: #fff !important;
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+  box-sizing: border-box;
+
+  .arrow-wrap {
+    .arrow-icon {
+      fill: #000;
+      cursor: pointer;
+      width: 10%;
+    }
+  }
+}
