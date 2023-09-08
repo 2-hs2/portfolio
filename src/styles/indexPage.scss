@@ -6,14 +6,77 @@
   transition: background-color 0.3s ease-in;
 
   .arrow-wrap {
+    margin-bottom: 2.5%;
+
     .arrow-icon {
       fill: #000;
       cursor: pointer;
-      width: 10%;
+      width: 8%;
       transition: fill 0.3s ease-in;
 
       &:hover {
         fill: #fff;
+      }
+    }
+  }
+  .link-wrap {
+    text-decoration: none;
+
+    .index-wrap {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #000;
+
+      &:hover {
+        color: #fff !important;
+      }
+      .left-wrap {
+        display: flex;
+        flex-direction: column;
+
+        .number {
+          font-family: "Unbounded", cursive;
+          color: inherit;
+          font-size: 5vw;
+          line-height: 1.2;
+        }
+        .title {
+          width: max-content;
+          color: inherit;
+          font-size: 3.5vw;
+          font-weight: 600;
+          line-height: 1.2;
+        }
+      }
+      .right-wrap {
+        display: flex;
+        flex-direction: row;
+
+        .content-wrap {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+          width: 35vw;
+
+          .period {
+            color: inherit;
+            font-size: 1.2vw;
+            font-weight: 600;
+          }
+          .middle-line {
+            font-size: 3.5vw;
+            line-height: 0.8;
+            color: inherit;
+          }
+          .description {
+            color: inherit;
+            font-size: 1vw;
+            font-weight: 500;
+            text-align: end;
+          }
+        }
       }
     }
   }
