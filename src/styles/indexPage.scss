@@ -1,17 +1,18 @@
 .container2 {
   width: 100vw;
-  height: 100vh;
-  padding: 5%;
+  height: max-content;
+  padding: 5% 6%;
   box-sizing: border-box;
   transition: background-color 0.3s ease-in;
 
   .arrow-wrap {
-    margin-bottom: 2.5%;
+    margin-bottom: 5%;
 
     .arrow-icon {
       fill: #000;
       cursor: pointer;
       width: 8%;
+      height: max-content;
       transition: fill 0.3s ease-in;
 
       &:hover {
@@ -25,9 +26,13 @@
     justify-content: space-between;
     align-items: center;
     color: #000;
+    margin-bottom: 10%;
 
     &:hover {
       color: #fff !important;
+    }
+    &:last-child {
+      margin-bottom: 0;
     }
     .left-wrap {
       display: flex;
@@ -38,6 +43,7 @@
         color: inherit;
         font-size: 5vw;
         line-height: 1.2;
+        margin-bottom: 3%;
       }
       .title {
         width: max-content;
@@ -48,14 +54,18 @@
       }
     }
     .right-wrap {
+      width: max-content;
       display: flex;
       flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10%;
 
       .content-wrap {
+        width: 28vw;
         display: flex;
         flex-direction: column;
         align-items: end;
-        width: 35vw;
 
         .period {
           color: inherit;
@@ -63,7 +73,7 @@
           font-weight: 600;
         }
         .middle-line {
-          font-size: 3.5vw;
+          font-size: 3vw;
           line-height: 0.8;
           color: inherit;
         }
@@ -73,6 +83,11 @@
           font-weight: 500;
           text-align: end;
         }
+      }
+      .arrow-icon-2 {
+        fill: #fff;
+        width: 5vw;
+        transform: rotate(180deg);
       }
     }
   }
