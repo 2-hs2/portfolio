@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
+import useScrollFadeIn from "../../hooks/useScrollFadeIn";
+
 import { ReactComponent as ArrowSvg } from "../../assets/icon/arrow_black.svg";
 
 const IndexComponent = ({ data, setBackgroundColor }) => {
@@ -20,6 +22,7 @@ const IndexComponent = ({ data, setBackgroundColor }) => {
         setBackgroundColor("#fff");
         setHover(false);
       }}
+      {...useScrollFadeIn("up", 1, 0)}
     >
       <div className="left-wrap">
         <span className="number">{data?.number}</span>
