@@ -3,6 +3,8 @@ import { useCallback, useEffect, useState } from "react";
 import { ReactComponent as ArrowSvg } from "../assets/icon/arrow_black.svg";
 import { useNavigate } from "react-router-dom";
 
+import "../styles/startPage.scss";
+
 const StartPage = () => {
   const navigate = useNavigate();
 
