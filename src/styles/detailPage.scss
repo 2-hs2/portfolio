@@ -101,22 +101,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30vw;
+    width: 55vw;
     height: 100%;
-    border-right: 0.5px solid #000;
     padding: 0 4% 0 0;
+    overflow: auto;
 
     .page-number {
       color: #000;
       color: #000;
       font-family: "Unbounded", cursive;
-      font-size: 10vw;
+      font-size: 6vw;
     }
-
+    .img {
+      width: 100%;
+      height: 100%;
+    }
     .page-title {
       color: #000;
       font-size: 2vw;
-      margin-bottom: 4%;
+      margin-bottom: 2%;
       font-weight: 600;
     }
     .page-subtitle {
@@ -129,6 +132,63 @@
       color: #000;
       font-size: 0.8vw;
       font-weight: 500;
+    }
+  }
+  .middle-wrap {
+    width: 50%;
+    padding: 0 5%;
+
+    .img {
+      width: 100%;
+    }
+    .contents-wrap {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      padding: 6% 8%;
+      border-radius: 5px;
+      overflow: auto;
+
+      .content-wrap {
+        margin-bottom: 10%;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .title {
+          font-size: 2vw;
+          font-family: "Unbounded", cursive;
+          margin-bottom: 4%;
+        }
+        .content {
+          font-size: 0.9vw;
+          font-weight: 500;
+          line-height: 1.8;
+        }
+        .sub-title {
+          margin: 4% 0;
+          font-size: 1.3vw;
+          font-weight: 600;
+        }
+        .design-tool-img {
+          width: 6%;
+        }
+        .circle-wrap {
+          margin: 4% 0;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 3%;
+
+          .circle {
+            width: 1.5vw;
+            height: 1.5vw;
+            border-radius: 50%;
+          }
+        }
+        .tech-stack-img {
+          margin-right: 3%;
+        }
+      }
     }
   }
   .right-wrap {
