@@ -188,6 +188,16 @@
         .tech-stack-img {
           margin-right: 3%;
         }
+        .concept-img-wrap {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          margin-bottom: 4%;
+          gap: 5%;
+          .concept-img {
+            width: 100%;
+          }
+        }
       }
     }
   }

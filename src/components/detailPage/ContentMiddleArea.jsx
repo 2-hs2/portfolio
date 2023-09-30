@@ -4,6 +4,12 @@ const ContentMiddleArea = ({ contentData }) => {
       <div className="contents-wrap">
         <div className="content-wrap">
           <div className="title">Concept.</div>
+          {contentData.title === "분석비교페이지" && (
+            <div className="concept-img-wrap">
+              <img className="concept-img" src={contentData.conceptImg1} />
+              <img className="concept-img" src={contentData.conceptImg2} />
+            </div>
+          )}
           <div className="content">{contentData?.concept}</div>
         </div>
         <div className="content-wrap">
