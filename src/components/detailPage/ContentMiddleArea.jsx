@@ -25,7 +25,9 @@ const ContentMiddleArea = ({ contentData }) => {
             <div className="title">Design.</div>
             <div className="content">{contentData?.design}</div>
             <div className="sub-title">Design Tool -</div>
-            <img src={contentData?.designToolImg} className="design-tool-img" />
+            {contentData?.designToolImg.map((img) => (
+              <img key={img} src={img} className="design-tool-img" />
+            ))}
             <div className="sub-title">Color -</div>
             {contentData?.colors.map((color) => {
               return (
