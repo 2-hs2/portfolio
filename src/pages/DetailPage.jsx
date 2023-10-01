@@ -4,6 +4,7 @@ import { ReactComponent as ArrowSvg } from "../assets/icon/arrow_black.svg";
 
 import TitleSection from "../components/detailPage/TitleSection";
 import ContentSection1 from "../components/detailPage/ContentSection1";
+import ContentSection2 from "../components/detailPage/ContentSection2";
 import ContentSection3 from "../components/detailPage/ContentSection3";
 import ContentSection4 from "../components/detailPage/ContentSection4";
 import ContentSection5 from "../components/detailPage/ContentSection5";
@@ -21,6 +22,7 @@ const DetailPage = () => {
       </div>
       <div className="container4">
         {param.indexId == 1 && <ContentSection1 />}
+        {param.indexId == 2 && <ContentSection2 />}
         {param.indexId == 3 && <ContentSection3 />}
         {param.indexId == 4 && <ContentSection4 />}
         {param.indexId == 5 && <ContentSection5 />}
@@ -47,7 +49,26 @@ const LinkData = [
       link: "https://drive.google.com/file/d/16Ezy5y1aLDvElMocrznNWKuIKzVwwigD/view?usp=drive_link",
     },
   ],
-  [],
+  [
+    {
+      number: "01.",
+      type: "GITHUB",
+      desc: ["Flint GitHub 주소"],
+      link: "https://github.com/Flint-org/Flint-Front",
+    },
+    {
+      number: "02.",
+      type: "LINK",
+      desc: ["그래픽 디자인 작업물"],
+      link: "https://www.figma.com/file/a1qewhiny5P5xuX64HAs8P/flint-design?type=design&node-id=1%3A2707&mode=design&t=04LZLETciACsdk8s-1",
+    },
+    {
+      number: "03.",
+      type: "LINK",
+      desc: ["UI 와이어프레임", "및 디자인 작업물"],
+      link: "https://www.figma.com/file/6CX5G7E8KAoPAmDA1miVlG/flint-ui?type=design&node-id=0%3A1&mode=design&t=04LZLETciACsdk8s-1",
+    },
+  ],
   [
     {
       number: "01.",
