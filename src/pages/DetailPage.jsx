@@ -102,6 +102,12 @@ const LinkData = [
       desc: ["UI 디자인 작업물"],
       link: "https://www.figma.com/file/vUSD0d5V9ZmOVf3trMeK6p/%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-UI?type=design&node-id=4%3A170&mode=design&t=bS88ZbhqfeqQYKHg-1",
     },
+    {
+      number: "03.",
+      type: "GITHUB",
+      desc: ["작업물 GitHub 주소"],
+      link: "https://github.com/2-hs2/todo",
+    },
   ],
   [
     {
