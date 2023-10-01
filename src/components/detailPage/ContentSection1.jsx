@@ -4,7 +4,7 @@ import AnalysisImg from "../../assets/img/labrador/analysis_src.png";
 import CompareImg from "../../assets/img/labrador/compare_src.png";
 import CompareType1Img from "../../assets/img/labrador/compare_area1.svg";
 import CompareType2Img from "../../assets/img/labrador/compare_area2.svg";
-import LabradorUIImg from "../../assets/img/labrador/labrador_ui.svg";
+import LabradorUIImg from "../../assets/img/labrador/labrador-ui.png";
 import IVASUIImg from "../../assets/img/labrador/ivas-img.png";
 
 import FigmaImg from "../../assets/icon/techStack/figma-logo.png";
@@ -122,7 +122,7 @@ const contentData = [
       { src: ReactImg, size: "10%" },
       { src: TsImg, size: "9%" },
     ],
-    img: { src: LabradorUIImg, size: "50%" },
+    img: { src: LabradorUIImg, size: "95%" },
   },
   {
     number: "04.",

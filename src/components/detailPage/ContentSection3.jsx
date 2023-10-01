@@ -12,7 +12,6 @@ import CssImg from "../../assets/icon/techStack/css.png";
 import HtmlImg from "../../assets/icon/techStack/html.svg";
 import JsImg from "../../assets/icon/techStack/js.png";
 import ReactImg from "../../assets/icon/techStack/react-logo.png";
-import TsImg from "../../assets/icon/techStack/ts-logo.svg";
 
 import ContentLeftArea from "./ContentLeftArea";
 import ContentRightArea from "./ContentRightArea";
