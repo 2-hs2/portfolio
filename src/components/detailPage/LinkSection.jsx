@@ -12,10 +12,11 @@ const LinkSection = ({ LinkData }) => {
             <div className="number">{data.number}</div>
             <div className="type">{data.type}</div>
             <div className="middle-line"></div>
-            <div className="desc">{data.desc}</div>
-            <div className="click-btn">
-              <span className="btn-text">CLICK</span>
-            </div>
+            {data.desc.map((d, index) => (
+              <div key={index} className="desc">
+                {d}
+              </div>
+            ))}
           </a>
         );
       })}
