@@ -52,8 +52,12 @@ const ContentMiddleArea = ({ contentData }) => {
                 </>
               );
             })}
-            <div className="sub-title">Font -</div>
-            <div className="content">{contentData?.font}</div>
+            {contentData?.font && (
+              <>
+                <div className="sub-title">Font -</div>
+                <div className="content">{contentData?.font}</div>
+              </>
+            )}
           </div>
         )}
         {contentData?.techStackImg && (
