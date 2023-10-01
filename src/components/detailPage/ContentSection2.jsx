@@ -84,7 +84,7 @@ const contentData = [
         hex: ["#ffa829", "#ffbe4a"],
       },
     ],
-    img: { src: LogoImg, size: "90%" },
+    img: { src: LogoImg, size: "80%" },
   },
   {
     number: "03.",

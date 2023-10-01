@@ -49,7 +49,7 @@ const contentData = [
     title: "UI 디자인",
     subtitle: "UI DESIGN",
     concept:
-      "깔끔하면서도 감각적인 디자인을 작업하여 개발자라는 직업이 지속적으로 지식을 탐구하는 측면에서 신세대적인 느낌을 전달한다.",
+      "깔끔하면서도 감각적인 디자인을 작업하고 개발자가 지속적으로 지식을 탐구하는 직업이기에 이러한 신세대적인 느낌을 전달하고자 하였다.",
     desc: `웹사이트의 메인 기능은 '커뮤니티' 시스템과 하루의 일정을 관리하는 '투두리스트'이다. 이러한 주 기능에 맞춰 로그인/회원가입, 메인페이지, 게시판, 게시글 상세보기, 게시글 작성, 검색창/검색결과, 마이페이지, 투두리스트 총 8가지의 페이지에 대한 UI 디자인을 진행하였다.`,
     process: `로그인 / 회원가입 UI 디자인 > 사이드바 UI 디자인 > 게시판 UI 디자인 > 게시글 상세보기 UI 디자인 > 게시글 작성 UI 디자인 > 검색창 / 검색 결과 UI 디자인 > 마이페이지 UI 디자인 > 투두리스트 UI 디자인 > 메인페이지 UI 디자인`,
     design: `전체적인 UI 작업은 XD를 통해 진행하였고 로고, 아이콘 등의 복잡한 그래픽 작업은 Illustrator를 이용하여 작업했다. 메인 컬러인 청보라색을 바탕으로 개발자들을 위한 커뮤니티 웹사이트라는 주제에 맞게 화면설계 당시 결정된 기능들을 바탕으로 사용자 편의성을 고려하여 디자인 스프린트를 진행했고 사용자 편의성 만큼 시원하고 깔끔한 느낌의 심미성도 함께 가져가고자 하였다.`,
@@ -82,7 +82,7 @@ const contentData = [
         hex: ["#6c7bfa", "#4d6cef", "#3c65e5"],
       },
     ],
-    img: { src: LogoImg, size: "90%" },
+    img: { src: LogoImg, size: "75%" },
   },
   {
     number: "03.",
@@ -100,7 +100,7 @@ const contentData = [
         hex: ["#6c7bfa", "#4d6cef", "#3c65e5"],
       },
     ],
-    img: { src: CharacterImg, size: "90%" },
+    img: { src: CharacterImg, size: "70%" },
   },
   {
     number: "04.",
@@ -115,7 +115,7 @@ const contentData = [
       { src: JsImg, size: "11.5%" },
       { src: ReactImg, size: "10%" },
     ],
-    img: { src: MainPageImg, size: "80%" },
+    img: { src: MainPageImg, size: "65%" },
   },
 ];
 export default ContentSection3;

@@ -80,7 +80,7 @@ const contentData = [
       { src: MongoDBImg, size: "5%" },
     ],
     font: "Noto Sans KR",
-    img: { src: MainPageImg, size: "92%" },
+    img: { src: MainPageImg, size: "75%" },
   },
 ];
 export default ContentSection4;
