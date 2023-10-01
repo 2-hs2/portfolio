@@ -169,9 +169,6 @@
           font-size: 1.3vw;
           font-weight: 600;
         }
-        .design-tool-img {
-          width: 6%;
-        }
         .circle-wrap {
           margin: 4% 0;
           display: flex;
@@ -183,6 +180,9 @@
             height: 1.5vw;
             border-radius: 50%;
           }
+        }
+        .design-tool-img {
+          margin-right: 4%;
         }
         .tech-stack-img {
           margin-right: 3%;
