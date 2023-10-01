@@ -6,6 +6,7 @@ import TitleSection from "../components/detailPage/TitleSection";
 import ContentSection1 from "../components/detailPage/ContentSection1";
 import ContentSection3 from "../components/detailPage/ContentSection3";
 import ContentSection4 from "../components/detailPage/ContentSection4";
+import ContentSection5 from "../components/detailPage/ContentSection5";
 import LinkSection from "../components/detailPage/LinkSection";
 
 const DetailPage = () => {
@@ -22,6 +23,7 @@ const DetailPage = () => {
         {param.indexId == 1 && <ContentSection1 />}
         {param.indexId == 3 && <ContentSection3 />}
         {param.indexId == 4 && <ContentSection4 />}
+        {param.indexId == 5 && <ContentSection5 />}
       </div>
       <div className="container5">
         <LinkSection LinkData={LinkData[param.indexId - 1]} />
@@ -69,7 +71,7 @@ const LinkData = [
   [
     {
       number: "01.",
-      type: "LINK",
+      type: "VIDEO",
       desc: ["사이트 사용 영상"],
       link: "https://drive.google.com/file/d/1V8IAjI6ofBIn95JnZLYZqPjuu7cTC0qV/view?usp=sharing",
     },
@@ -80,7 +82,26 @@ const LinkData = [
       link: "https://www.figma.com/file/vUSD0d5V9ZmOVf3trMeK6p/%EB%AF%B8%EB%8B%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-UI?type=design&node-id=4%3A170&mode=design&t=bS88ZbhqfeqQYKHg-1",
     },
   ],
-  [],
+  [
+    {
+      number: "01.",
+      type: "LINK",
+      desc: ["ETC. 디자인 포트폴리오"],
+      link: "https://drive.google.com/file/d/1QJe0ISzkZcXvezfI1ylhRRQ8jg8IUI9-/view?usp=sharing",
+    },
+    {
+      number: "02.",
+      type: "LINK",
+      desc: ["인포그래픽스 작업물"],
+      link: "https://assets.adobe.com/id/urn:aaid:sc:AP:f697e337-ee39-4404-b700-0db72508a1e5?view=published",
+    },
+    {
+      number: "03.",
+      type: "PDF",
+      desc: ["인포그래픽스 최종발표 자료"],
+      link: "https://drive.google.com/file/d/1QJe0ISzkZcXvezfI1ylhRRQ8jg8IUI9-/view?usp=sharing",
+    },
+  ],
 ];
 
 export default DetailPage;
