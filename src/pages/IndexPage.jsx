@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 import { ReactComponent as ArrowSvg } from "../assets/icon/arrow_black.svg";
-import IndexComponent from "../components/IndexPage/IndexComponent";
+import IndexComponent from "../components/indexPage/IndexComponent";
 
 const IndexPage = () => {
   const navigate = useNavigate();
