@@ -57,49 +57,33 @@ const TitleSection = ({ index }) => {
     [["인포그래픽스"], ["ETC."]],
   ]);
 
-  // scroll Y좌표 5 넘으면 true값 갖는 state
-  const [showRoleModal, setShowRoleModal] = useState(false);
-
-  // scrollPosition update 하는 함수
-  const updateScrollY = useCallback(() => {
-    if (window.scrollY > 5) {
-      setShowRoleModal(true);
-    }
-  }, []);
-
-  // scroll listner 추가
-  useEffect(() => {
-    window.addEventListener("scroll", updateScrollY);
-  }, []);
-
   return (
     <>
       <div className="title-wrap">
         <div className="title">{titles[index - 1]}</div>
       </div>
-      {showRoleModal && (
-        <div className="role-modal-wrap">
-          <div className="role-modal">
-            <div className="title">[ ROLE ]</div>
-            {roles[index - 1].map((role, idx) => {
-              return (
-                <div key={role} className="sub-title-wrap">
-                  <div className="sub-title">{role}</div>
-                  <div className="content-wrap">
-                    {tasks[index - 1][idx].map((task) => {
-                      return (
-                        <div key={task} className="content">
-                          {task}
-                        </div>
-                      );
-                    })}
-                  </div>
+      <div className="role-modal-wrap">
+        <div className="role-modal">
+          <div className="title">[ ROLE ]</div>
+          {roles[index - 1].map((role, idx) => {
+            return (
+              <div key={role} className="sub-title-wrap">
+                <div className="sub-title">{role}</div>
+                <div className="content-wrap">
+                  {tasks[index - 1][idx].map((task) => {
+                    return (
+                      <div key={task} className="content">
+                        {task}
+                      </div>
+                    );
+                  })}
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
-      )}
+      </div>
+      ㄴ
     </>
   );
 };
