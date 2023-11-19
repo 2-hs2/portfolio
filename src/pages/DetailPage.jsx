@@ -9,6 +9,7 @@ import ContentSection3 from "../components/detailPage/ContentSection3";
 import ContentSection4 from "../components/detailPage/ContentSection4";
 import ContentSection5 from "../components/detailPage/ContentSection5";
 import LinkSection from "../components/detailPage/LinkSection";
+import PageUpBtn from "../components/common/PageUpBtn";
 
 const DetailPage = () => {
   const param = useParams();
@@ -16,6 +17,7 @@ const DetailPage = () => {
 
   return (
     <>
+      <PageUpBtn />
       <div className="container3">
         <ArrowSvg className="arrow-icon" onClick={() => navigate("/index")} />
         <TitleSection index={param.indexId} />
