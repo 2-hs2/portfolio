@@ -114,7 +114,7 @@ const LinkData = [
       number: "01.",
       type: "LINK",
       desc: ["ETC. 디자인 포트폴리오"],
-      link: "https://drive.google.com/file/d/1TRYIBg3jH79hpukN1fAda1LFfuVdYJi2/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1kA_TR73QYBW_Flg2q7SvZFsCN6bz6s6Z/view?usp=sharing",
     },
     {
       number: "02.",
